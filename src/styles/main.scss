@@ -12,6 +12,15 @@ $family-sans-serif: 'Harry P', sans-serif;
 
 nav.navbar.is-dark {
   background: rebeccapurple;
+  -webkit-box-shadow: 0px 0px 50px -12px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 50px -12px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 50px -12px rgba(0,0,0,0.5);
+  .navimg {
+    margin-right: 6px;
+  }
+  .navtext {
+    font-size: 25px;
+  }
 }
 
 .hero-body {
@@ -19,7 +28,7 @@ nav.navbar.is-dark {
   display: flex;
   flex-direction: column;
   letter-spacing: 3px;
-  background-color: slateblue;
+  background-color: darkslateblue;
   p.title.is-1.has-text-centered{
     color: gold;
   }
@@ -55,11 +64,23 @@ p {
   text-shadow:1px 1px 10px yellow, 1px 1px 10px #ccc;
 }
 
-.homebutton {
+.startquizbutton {
     background-color: slateblue;
     border-color: gold;
     color: gold;
-}
+    font-size: 20px;
+    box-shadow: 0px 8px 5px rgba(216, 225, 117, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .startquizbutton:hover {
+    background-color: gold;
+    box-shadow: 0px 15px 20px rgba(249, 229, 78, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
 
 .Decision-btn {
   display: flex;
@@ -100,14 +121,25 @@ div.options {
   padding: 50px;
   button {
     font-size: 30px;
-    border: outset;
     background-color: darkcyan;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
   }
 }
 
 .questions {
   font-size: 50px;
-  margin: 30px
+  margin: 30px;
+  color: thistle;
 }
 
 a.Result {
@@ -122,5 +154,5 @@ a.Result {
 }
 
 html {
-  background-color: lightsteelblue;
+  background-color: indigo;
 }

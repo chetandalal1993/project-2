@@ -23,7 +23,7 @@ class Navbar extends React.Component {
         <nav className="navbar is-dark">
           <div className="container">
             <div className="navbar-brand">
-              <Link to="/" className="navbar-item"><img src={housescrest} height="50" alt='sorting hat'/>Home</Link>
+              <Link to="/" className="navbar-item"><img className="navimg" src={housescrest} height="60" alt='sorting hat'/><p className="navtext">Home</p></Link>
               <span onClick={this.handleToggle} className={`navbar-burger ${isOpen ? 'is-active' : ''}`}>
                   <span></span>
                   <span></span>
@@ -33,7 +33,7 @@ class Navbar extends React.Component {
 
             <div className={`navbar-menu ${isOpen ? 'is-active' : ''}`}>
               <div className="navbar-end">
-              <Link to="/quiz" className="navbar-item"><img src={sortinghat} height="50" alt='sorting hat'/>Sorting Hat</Link>
+              <Link to="/quiz" className="navbar-item"><img className="navimg" src={sortinghat} height="60" alt='sorting hat'/><p className="navtext">Sorting Hat</p></Link>
               </div>
             </div>
           </div>
