@@ -41,7 +41,7 @@ class Quiz extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="quiz">
         <p className='questions'>{this.state.questions[0]}</p> 
         <div className='options'>
         {this.state.housesData.map(house => (
