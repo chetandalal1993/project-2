@@ -29,6 +29,10 @@ nav.navbar.is-dark {
 }
 }
 
+div.container {
+  font-size: 20px;
+}
+
 p {
     display: flex;
     justify-content: center;
@@ -39,6 +43,13 @@ p {
   justify-content: center;
   margin-bottom: 20px;
   color: gold;
+  font-size: 30px;
+}
+
+.homebutton {
+    background-color: black;
+    border-color: gold;
+    color: gold;
 }
 
 .Decision-btn {
@@ -53,7 +64,10 @@ p {
   margin-top: 20px;
 }
 
-
+div.options {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 
 
@@ -90,4 +104,8 @@ a.Result {
   justify-content: center;
   color: black;
   font-size: 50px;
+}
+
+div.options {
+  // display: none;
 }

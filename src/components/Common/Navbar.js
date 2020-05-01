@@ -1,6 +1,7 @@
 import React from 'react'
-import { Link, withRouter } from 'react-router-dom'
-
+import { Link } from 'react-router-dom'
+import sortinghat from '../assets/images/hat.png'
+import housescrest from '../assets/images/housescrest.png'
 
 class Navbar extends React.Component {
   state = { isOpen : false }
@@ -22,7 +23,7 @@ class Navbar extends React.Component {
         <nav className="navbar is-dark">
           <div className="container">
             <div className="navbar-brand">
-              <Link to="/" className="navbar-item">Home</Link>
+              <Link to="/" className="navbar-item"><img src={housescrest} height="50" alt='sorting hat'/>Home</Link>
               <span onClick={this.handleToggle} className={`navbar-burger ${isOpen ? 'is-active' : ''}`}>
                   <span></span>
                   <span></span>
@@ -32,7 +33,7 @@ class Navbar extends React.Component {
 
             <div className={`navbar-menu ${isOpen ? 'is-active' : ''}`}>
               <div className="navbar-end">
-              <Link to="/quiz" className="navbar-item">Sorting Hat</Link>
+              <Link to="/quiz" className="navbar-item"><img src={sortinghat} height="50" alt='sorting hat'/>Sorting Hat</Link>
               </div>
             </div>
           </div>
