@@ -1,0 +1,93 @@
+// ? Font 
+@font-face {
+  font-family: 'Harry P';
+  src: url(/src/assets/fonts/HARRYP__.TTF)
+}
+
+// ? Reassign any bulma variables
+$family-sans-serif: 'Harry P', sans-serif;
+
+// ? Import bulma -- all
+@import '~bulma/bulma.sass';
+
+nav.navbar.is-dark {
+  background: midnightblue;
+}
+
+.hero-body {
+
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 3px;
+  background-color: black;
+  p.title.is-1.has-text-centered{
+    color: gold;
+  }
+.Button {
+    display: flex;
+    justify-content: center;
+}
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+.homemsg {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: gold;
+}
+
+.Decision-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Next-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+
+
+
+.errorpixie {
+  display: flex;
+  justify-content: center;
+}
+
+
+.result {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+  font-size: 100px;
+
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  button {
+    font-size: 30px;
+  }
+}
+
+.questions {
+  font-size: 50px;
+  margin: 30px
+}
+
+a.Result {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 50px;
+}
