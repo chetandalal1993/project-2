@@ -44,9 +44,18 @@ class Quiz extends React.Component {
       <div className="quiz">
         <p className='questions'>{this.state.questions[0]}</p> 
         <div className='options'>
-        {this.state.housesData.map(house => (
-            <button key={house._id} onClick={this.nextQuestion} value={house.name}>{house[this.state.quizOptions[0]]}</button>
-        ))}
+          {/* if typeof === '' then map like this
+          else map like array */}
+          
+        {
+        this.state.housesData.map((house) =>  {
+          if (typeof house[this.state.quizOptions[0]] === 'string') {
+            return <button key={house._id} onClick={this.nextQuestion} value={house.name}>{house[this.state.quizOptions[0]]}</button>
+          } else if (typeof house[this.state.quizOptions[0]] === 'object') {
+            return <button key={house._id} onClick={this.nextQuestion} value={house.name}>{house[this.state.quizOptions[0]].join(' ')}</button>
+          }
+        })
+      }
         </div>
             
         { this.state.result.length === 4 && <Link to={{

@@ -28,3 +28,7 @@ class Result extends React.Component {
 }
 
 export default Result
+
+
+// if winner === Gryffindor return ../assets/images/Gryffindor.png 
+// else if winner === 
