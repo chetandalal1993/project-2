@@ -134,6 +134,8 @@ p.error.title.is-1.has-text-centered {
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
+    width: 200px;
+    height: 100px;
     }
   
   button:hover {
@@ -193,9 +195,9 @@ a.Result {
     font-size: 80px;
   }
   .houseinfo{
+    white-space: pre-wrap;
     font-size: 30px;
     text-align: center;
-    // width: 380px
   }
 
 html {
