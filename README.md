@@ -7,7 +7,7 @@ A quiz emulating the sorting hat from Harry Potter. It was my second project on 
 
 Deployment
 
-Launce on .....
+Launce on ...
 
 Built With
 
@@ -15,7 +15,9 @@ React SCSS Git GitHub potterapi
 
 Getting Started
 
-.....
+...
+
+//* insert images of Quiz
 
 Brief
 
@@ -26,6 +28,24 @@ Include wireframes - that you designed before building the app.
 Be deployed online and accesbile to the public.
 
 Quiz
+
+This quiz offers 4 sets of 4 multiple choice questions. The result of the quiz is dependent on the choices made by the user. This result will be one of the 4 Hogwarts houses, (Gryffindor, Ravenclaw, Hufflepuff, Slytherin).
+
+Wins and Challenges
+
+...
+
+Bugs
+
+...
+
+Future Improvements
+
+...
+
+Credits
+
+...
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
