@@ -11,7 +11,7 @@ Launce on ...
 
 Built With
 
-React SCSS Git GitHub potterapi
+React SCSS Bulma Git GitHub potterapi
 
 Getting Started
 
