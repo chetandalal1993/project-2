@@ -110,8 +110,13 @@ div.options {
 .result {
   display: flex;
   justify-content: center;
-  margin: 150px;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
   font-size: 100px;
+  color: gold;
+  text-shadow:1px 1px 10px yellow, 1px 1px 10px #ccc;
+  letter-spacing: 3px;
 
 }
 
@@ -120,6 +125,7 @@ div.options {
   justify-content: center;
   padding: 50px;
   button {
+    margin: 10px;
     font-size: 30px;
     background-color: darkcyan;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);

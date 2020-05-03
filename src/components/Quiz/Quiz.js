@@ -52,7 +52,7 @@ class Quiz extends React.Component {
           if (typeof house[this.state.quizOptions[0]] === 'string') {
             return <button key={house._id} onClick={this.nextQuestion} value={house.name}>{house[this.state.quizOptions[0]]}</button>
           } else if (typeof house[this.state.quizOptions[0]] === 'object') {
-            return <button key={house._id} onClick={this.nextQuestion} value={house.name}>{house[this.state.quizOptions[0]].join(' ')}</button>
+            return <button key={house._id} onClick={this.nextQuestion} value={house.name}>{house[this.state.quizOptions[0]].join(', ')}</button>
           }
         })
       }
