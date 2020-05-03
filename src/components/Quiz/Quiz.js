@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { getAllData } from '../../lib/api'
+import demiguise from '../assets/images/demiguise.png'
 
 
 
@@ -63,7 +64,9 @@ class Quiz extends React.Component {
             state: {
               result: this.state.result
             }
-          }} className="Result">See the Result</Link> }
+          }} className="Result">
+          <button className="seeresult">See the Result</button> <img className="demiguise" src={demiguise} width="200" alt='result pixie'/>
+            </Link> }
       </div>
     )
   }

@@ -8,7 +8,7 @@ const Error = () => (
       <div className="errorpixie">
       <img className="pixie" src={pixie} width="400" alt='error pixie'/>
       </div>
-        <p className="title is-1 has-text-centered">Oops something went wrong. Please try again!</p>
+        <p className="error title is-1 has-text-centered">Oops something went wrong. Please try again!</p>
       </div>
     </div>
   </section>
