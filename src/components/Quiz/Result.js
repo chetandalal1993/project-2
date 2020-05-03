@@ -26,7 +26,7 @@ class Result extends React.Component {
   findImage = (item) => {
     return this.state.finalImage.filter(element => {
       if(element.name === item) {
-        return element.img
+        return element
       }
     })
   }
@@ -36,7 +36,7 @@ class Result extends React.Component {
     const img = this.findImage(winner)
     return (
       <div className="result">
-        <p className="resultmessage">{this.findWinner(this.props.location.state.result)}</p>
+        <p className="resultmessage">{winner}</p>
         <img src={`${img[0].img}`} width="200" alt={`${winner}`} />
         <p className="houseinfo">{`${img[0].info}`}</p>
       </div>
