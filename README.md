@@ -1,3 +1,32 @@
+
+Project 2: Sorting Hat Quiz (Harry Potter)
+
+Overview
+
+A quiz emulating the sorting hat from Harry Potter. It was my second project on my Software Engineering Immersive course at General Assembly. This project was done in pair coding. The time frame for this project was 48 hours. The main game logic was completed in this time. I used the following weekend to complete a couple of additional features and styling.
+
+Deployment
+
+Launce on .....
+
+Built With
+
+React SCSS Git GitHub potterapi
+
+Getting Started
+
+.....
+
+Brief
+
+Consume a public API - this could be anything but it must make sense for your project.
+Have several components - At least one classical and one functional.
+The app can have a router - with several "pages", this is up to your digression and if it makes sense for your project.
+Include wireframes - that you designed before building the app.
+Be deployed online and accesbile to the public.
+
+Quiz
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
