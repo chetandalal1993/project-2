@@ -1,3 +1,6 @@
+// ? Import bulma -- all
+@import '~bulma/bulma.sass';
+
 // ? Font 
 @font-face {
   font-family: 'Harry P';
@@ -7,8 +10,11 @@
 // ? Reassign any bulma variables
 $family-sans-serif: 'Harry P', sans-serif;
 
-// ? Import bulma -- all
-@import '~bulma/bulma.sass';
+* {
+  font-family: 'Harry P';
+}
+
+
 
 .quiz {
   width: 80% //* maybe
