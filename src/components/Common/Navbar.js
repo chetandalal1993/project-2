@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, withRouter } from 'react-router-dom'
 import sortinghat from '../assets/images/hat.png'
 import housescrest from '../assets/images/housescrest.png'
-import './fonts/HARRYP__.TTF'
+
 
 class Navbar extends React.Component {
   state = { isOpen : false }
