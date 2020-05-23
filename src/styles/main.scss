@@ -3,15 +3,15 @@
 
 // ? Font 
 @font-face {
-  font-family: 'Harry P';
-  src: url(/src/components/assets/fonts/HARRYP__.TTF)
+  font-family: 'Parry Hotter';
+  src: url(/src/components/assets/fonts/Harry.ttf)
 }
 
 // ? Reassign any bulma variables
-$family-sans-serif: 'Harry P', sans-serif;
+$family-sans-serif: 'Parry Hotter', sans-serif;
 
 * {
-  font-family: 'Harry P';
+  font-family: 'Parry Hotter';
 }
 
 
