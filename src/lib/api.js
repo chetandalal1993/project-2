@@ -9,7 +9,7 @@ export const getAllData = () => {
 }
 
 
-// const apiKey = `?key=$2a$10$3LzDUjIX8kPXxHyKIsVbB${process.env.REACT_APP_HARRY_POTTER_KEY}`
 
 
-// const apiKey = `?key=$2a$10$3LzDUjIX8kPXxHyKIsVbB.Z7u9G7E/a6faguQ5FwIcAYFr72YurLe`
+
+// const apiKey = `?key=$2a$10$t6cqE4.0tqBOAAkoYBb3G.ZZ8B8aJ55eOn5wTyv.mfkWgHT7xJ75y`

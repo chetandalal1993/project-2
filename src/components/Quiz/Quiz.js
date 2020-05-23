@@ -5,7 +5,6 @@ import demiguise from '../assets/images/demiguise.png'
 
 
 
-
 class Quiz extends React.Component {
   state = {
     housesData :[],
