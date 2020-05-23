@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 // import { getAllData } from '../../lib/api'
+import '../assets/fonts/HARRYP__.TTF'
 
 import './App.css'
 
