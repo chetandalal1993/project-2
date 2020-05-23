@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const baseUrl = 'https://www.potterapi.com/v1'
-const apiKey = `?key=$2a$10$3LzDUjIX8kPXxHyKIsVbB.Z7u9G7E/a6faguQ5FwIcAYFr72YurLe`
+const apiKey = `?key=$2a$10$3LzDUjIX8kPXxHyKIsVbB${process.env.REACT_APP_HARRY_POTTER_KEY}`
 
 export const getAllData = () => {
   console.log(apiKey)
@@ -10,3 +10,4 @@ export const getAllData = () => {
 
 
 // const apiKey = `?key=$2a$10$3LzDUjIX8kPXxHyKIsVbB${process.env.REACT_APP_HARRY_POTTER_KEY}`
+
