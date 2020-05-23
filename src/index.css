@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Harry P';
-  src: url(/src/components/assets/fonts/HARRYP__.TTF)
+  src: local('Harry P'), url(/src/components/assets/fonts/HARRYP__.TTF) format('truetype');
 }
 
 body {
