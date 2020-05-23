@@ -1,19 +1,18 @@
-// ? Import bulma -- all
-@import '~bulma/bulma.sass';
-
-// ? Font 
-@font-face {
-  font-family: 'Parry Hotter';
-  src: url(/src/components/assets/fonts/Harry.ttf)
-}
+// // ? Font 
+// @font-face {
+//   font-family: 'Harry P';
+//   src: url(/src/components/assets/fonts/HARRYP__.TTF)
+// }
 
 // ? Reassign any bulma variables
-$family-sans-serif: 'Parry Hotter', sans-serif;
+$family-sans-serif: 'Harry P', sans-serif;
 
 * {
-  font-family: 'Parry Hotter';
+  font-family: 'Harry P';
 }
 
+// ? Import bulma -- all
+@import '~bulma/bulma.sass';
 
 
 .quiz {
