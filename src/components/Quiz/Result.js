@@ -3,7 +3,7 @@ import Gryffindor from '../assets/images/g2.png'
 import Slytherin from '../assets/images/s2.png'
 import Ravenclaw from '../assets/images/r2.png'
 import Hufflepuff from '../assets/images/h2.png'
-import '../assets/fonts/HARRYP__.TTF'
+import './fonts/HARRYP__.TTF'
 
 
 class Result extends React.Component {
