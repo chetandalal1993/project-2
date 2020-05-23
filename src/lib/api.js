@@ -5,7 +5,7 @@ const apiKey = process.env.REACT_APP_HARRY_POTTER_KEY
 
 export const getAllData = () => {
   console.log(apiKey)
-  return axios.get(`${baseUrl}/houses${apiKey}`)
+  return axios.get(`${baseUrl}/houses/${apiKey}`)
 }
 
 
