@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'Harry P';
-  src: url(/src/components/assets/fonts/Harry.ttf)
-}
-
 .App {
   text-align: center;
 }

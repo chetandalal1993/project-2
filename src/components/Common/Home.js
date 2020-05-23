@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import hogwarts from '../assets/images/hogwarts2.png'
-// import '../assets/fonts/HARRYP__.TTF'
-
 
 const Home = () => (
   <section className="hero is-fullheight-with-navbar is-warning">
