@@ -11,6 +11,8 @@ import Error from './components/Common/Error'
 import Quiz from './components/Quiz/Quiz'
 import Result from './components/Quiz/Result'
 
+
+
 function App() {
   return (
     <BrowserRouter>
