@@ -67,6 +67,17 @@ This quiz offers 4 sets of 4 multiple choice questions. Each time a user selects
 
 After the 4th and last question is answered the user is shown a 'see the result' page and a 'see the result' button. Once they click on this button the user is taken to the result page. This button functions as a link to the result page and also passes the props.
 
+```javascript
+{ this.state.result.length === 4 && <Link to={{
+          pathname: '/result',
+            state: {
+              result: this.state.result
+            }
+          }} className="Result">
+          <button className="seeresult">See the Result</button> <img className="demiguise" src={demiguise} width="200" alt='result pixie'/>
+            </Link> }
+```
+
 ![get result screenshot](getresult.png)
 
 ### Result Page
