@@ -30,10 +30,6 @@ The website is deployed on netlify and can be found [here](https://harry-potter-
 
 Clone or download the repo. Run 'npm i' from the root directory to download all of the necessary packages and then type 'npm run start'. 
 
-![quiz screenshot](quiz.png)
-![get result screenshot](getresult.png)
-![result screenshot](result.png)
-
 ## Brief
 
 Consume a public API - this could be anything but it must make sense for your project.
@@ -46,18 +42,28 @@ Be deployed online and accesbile to the public.
 
 This website is made up of a home page, a quiz page and a result page. There is also quick acess to the quiz via the navbar.
 
-#### Home
+### Home Page
 The home page contains a welcome message, navbar with quick acess to the quiz and a start quiz button which links to the quiz page.
 
 ```javascript
   <Link to='/quiz' className='Button'><button className="startquizbutton button">Start Quiz</button></Link>
 ```
-
 ![home screenshot](home.png)
 
-## Quiz
+### Quiz Page
+This quiz offers 4 sets of 4 multiple choice questions. Each time a user selects a choice, the next multiple choice question is displayed. The multiple choice options were created by mapping over the data being pulled from the potterapi API.
 
-This quiz offers 4 sets of 4 multiple choice questions. The result of the quiz is dependent on the choices made by the user. This result will be one of the 4 Hogwarts houses, (Gryffindor, Ravenclaw, Hufflepuff, Slytherin).
+![quiz screenshot](quiz.png)
+![get result screenshot](getresult.png)
+
+After the 4th and last question is answered the user is shown a get result page and a get result button. Once they click on this button the user is taken to the result page. This button also triggers the result function.
+
+### Result Page
+The result of the quiz is dependent on the choices made by the user. This result will be one of the 4 Hogwarts houses, (Gryffindor, Ravenclaw, Hufflepuff, Slytherin).
+The result is calculated by doing 1 + 1
+
+
+![result screenshot](result.png)
 
 ## Wins and Challenges
 
