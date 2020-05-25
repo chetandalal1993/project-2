@@ -28,9 +28,8 @@ The website is deployed on netlify and can be found [here](https://harry-potter-
 
 ## Getting Started
 
-...
+Clone or download the repo. Run 'npm i' from the root directory to download all of the necessary packages and then type 'npm run start'. 
 
-![home screenshot](home.png)
 ![quiz screenshot](quiz.png)
 ![get result screenshot](getresult.png)
 ![result screenshot](result.png)
@@ -42,6 +41,18 @@ Have several components - At least one classical and one functional.
 The app can have a router - with several "pages", this is up to your digression and if it makes sense for your project.
 Include wireframes - that you designed before building the app.
 Be deployed online and accesbile to the public.
+
+## Website Architecture
+
+This website is made up of a home page, a quiz page and a result page. There is also quick acess to the quiz via the navbar.
+
+The home page contains a welcome message, navbar with quick acess to the quiz and a start quiz button which links to the quiz page.
+
+```javascript
+  <Link to='/quiz' className='Button'><button className="startquizbutton button is-danger">Start Quiz</button></Link>
+```
+
+![home screenshot](home.png)
 
 ## Quiz
 
