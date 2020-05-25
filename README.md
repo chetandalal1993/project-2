@@ -1,4 +1,6 @@
 
+<img align="left" width="50" height="50" src="GA.png" alt="GA logo">
+
 # Project 2: Sorting Hat Quiz (Harry Potter)
 
 ## Overview
