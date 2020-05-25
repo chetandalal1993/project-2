@@ -9,7 +9,7 @@ A quiz emulating the sorting hat from Harry Potter. It was my second project on 
 
 ## Deployment
 
-Launce on ...
+The website is deployed on netlify and can be found [here](https://harry-potter-sorting-hat.netlify.app/)
 
 ## Built With
 
