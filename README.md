@@ -54,9 +54,10 @@ The home page contains a welcome message, navbar with quick acess to the quiz an
 This quiz offers 4 sets of 4 multiple choice questions. Each time a user selects a choice, the next multiple choice question is displayed. The multiple choice options were created by mapping over the data being pulled from the potterapi API.
 
 ![quiz screenshot](quiz.png)
-![get result screenshot](getresult.png)
 
-After the 4th and last question is answered the user is shown a get result page and a get result button. Once they click on this button the user is taken to the result page. This button also triggers the result function.
+After the 4th and last question is answered the user is shown a 'see the result' page and a 'see the result' button. Once they click on this button the user is taken to the result page. This button functions as a link to the result page and also passes the props.
+
+![get result screenshot](getresult.png)
 
 ### Result Page
 The result of the quiz is dependent on the choices made by the user. This result will be one of the 4 Hogwarts houses, (Gryffindor, Ravenclaw, Hufflepuff, Slytherin).
@@ -67,19 +68,28 @@ The result is calculated by doing 1 + 1
 
 ## Wins and Challenges
 
-...
+biggest challenge was getting the image to show up in result worked it out over weekend though like this
+```javascript
+  findImage = (item) => {
+    return this.state.finalImage.filter(element => {
+      if(element.name === item) {
+        return element
+      }
+    })
+  }
+```
 
 ## Bugs
 
-...
+My error page has been overriden by netlify
 
 ## Future Improvements
 
-...
+responsive design
 
 ## Credits
 
-...
+Kuriko
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
