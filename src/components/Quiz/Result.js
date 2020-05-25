@@ -24,6 +24,7 @@ class Result extends React.Component {
       ).pop()
   }
 
+  //* if image name is equal to item then return that image
   findImage = (item) => {
     return this.state.finalImage.filter(element => {
       if(element.name === item) {
@@ -35,7 +36,7 @@ class Result extends React.Component {
   render() {
     const winner = this.findWinner(this.props.location.state.result)
     // console.log(winner) 
-    const img = this.findImage(winner)
+    const img = this.findImage(winner) //* matching image name to to winner
     return (
       <div className="result">
         <p className="resultmessage">{winner}</p>

@@ -100,9 +100,16 @@ Here sort is sorting the array into ascending order. We filter out every item in
 ```
 ![result screenshot](result.png)
 
-## Wins and Challenges
+## Wins 
 
-biggest challenge was getting the image to show up in result worked it out over weekend though like this
+The biggest win was experience pair coding on a project for the first time and seeing what we could build together in such a short amount of time. 
+
+## Challenges
+
+* We had intitially really overcomplicated our code. So much so that we had to rewrite most of our code on day 2 of the hackathon. 
+
+* Getting the house crest image to show up on the result page as well as house info. Over ther weekend I managed to solve this by putting the finalImage array in state on the result page. This finalImage array contains 4 objects. Each one of these objects contains 3 keys; name, img and info. Using the findImage function I filtered over the finalImage array and if the object has a key of name that is equal to the item then return that object.
+
 ```javascript
   findImage = (item) => {
     return this.state.finalImage.filter(element => {
@@ -113,18 +120,33 @@ biggest challenge was getting the image to show up in result worked it out over 
   }
 ```
 
+When the findImage function is called in the render, the winner is passed in the paramater of the function and therefore matching up the key name of the object in the finalImage array with the string of the winner extracted from the results array.
+As this object also contains the key with the value of the house info I also have acces to that and return it alongise the winner and image.
+
+```javascript
+ const img = this.findImage(winner) 
+    return (
+      <div className="result">
+        <p className="resultmessage">{winner}</p>
+        <img src={`${img[0].img}`} width="200" alt={`${winner}`} />
+        <p className="houseinfo">{`${img[0].info}`}</p>
+      </div>
+    )
+  }
+```
+
 ## Bugs
 
-My error page has been overriden by netlify
+My error page seems to have been overriden by netlify
 
 ## Future Improvements
 
-responsive design
-comments
+* Responsive design
+* As it was a hackathon we overlooked the usefulness of leaving comments on our code and in our rush to get the project complete had neglected adding them. In hindsight they would've been beneficial to us and others reading this code, especially looking back on this project in the future.
 
 ## Credits
 
-Kuriko link 
+Kuriko Iwai - my partner for this project.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
