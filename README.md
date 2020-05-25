@@ -82,7 +82,15 @@ After the 4th and last question is answered the user is shown a 'see the result'
 
 ### Result Page
 The result of the quiz is dependent on the choices made by the user. This result will be one of the 4 Hogwarts houses, (Gryffindor, Ravenclaw, Hufflepuff, Slytherin).
-The result is calculated by doing 1 + 1
+The result is calculated by pushing the even.target.value in each question into the results array that was set in state on the Quiz page.
+
+```javascript
+...
+    const result = [ ...this.state.result ]
+    result.push(event.target.value)
+    this.setState({ result })
+...
+```
 
 
 ![result screenshot](result.png)
@@ -107,10 +115,11 @@ My error page has been overriden by netlify
 ## Future Improvements
 
 responsive design
+comments
 
 ## Credits
 
-Kuriko
+Kuriko link 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
