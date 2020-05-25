@@ -5,7 +5,9 @@
 
 ## Overview
 
-A quiz emulating the sorting hat from Harry Potter. It was my second project on my Software Engineering Immersive course at General Assembly. This project was done in pair coding. The time frame for this project was 48 hours. The main game logic was completed in this time. I used the following weekend to complete a couple of additional features and styling.
+A quiz emulating the sorting hat from Harry Potter. 
+The time frame for this pair coding project was 48 hours.
+The main game logic was completed in this time. I used the following weekend to complete the result feature (alternating result house crest images and info depending on result), and styling.
 
 ## Deployment
 
