@@ -46,6 +46,7 @@ Be deployed online and accesbile to the public.
 
 This website is made up of a home page, a quiz page and a result page. There is also quick acess to the quiz via the navbar.
 
+#### Home
 The home page contains a welcome message, navbar with quick acess to the quiz and a start quiz button which links to the quiz page.
 
 ```javascript
