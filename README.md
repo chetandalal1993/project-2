@@ -87,8 +87,8 @@ The result is calculated by pushing the even.target.value(house name correlating
     result.push(event.target.value)
     this.setState({ result })
 ```
-Then using the findWinner function to calculate which house name appeared most within the results array to determine which house the user will be sorted into.
-Here should two or more strings in the arrray have equal occurences then the one that appears latest in the array will be returned.
+The findWinner function is used to calculate which house name appeared most within the results array to determine which house the user will be sorted into.
+Here sort is sorting the array into ascending order. We filter out every item in order then count it and determine which string has the highest occurunce. should two or more strings in the arrray have equal occurences then the one that appears latest in the array will be returned.
 
 ```javascript
   findWinner = (result) => {
