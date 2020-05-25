@@ -83,13 +83,12 @@ The result of the quiz is dependent on the choices made by the user. This result
 The result is calculated by pushing the even.target.value(house name correlating to the option selected), in each question into the results array that was set in state on the Quiz page.
 
 ```javascript
-...
     const result = [ ...this.state.result ]
     result.push(event.target.value)
     this.setState({ result })
-...
 ```
 Then using the findWinner function to calculate which house name appeared most within the results array to determine which house the user will be sorted into.
+Here should two or more strings in the arrray have equal occurences then the one that appears latest in the array will be returned.
 
 ```javascript
   findWinner = (result) => {
@@ -99,7 +98,6 @@ Then using the findWinner function to calculate which house name appeared most w
       ).pop()
   }
 ```
-Here should two or more strings in the arrray have equal occurences then the one that appears latest in the array will be returned.
 ![result screenshot](result.png)
 
 ## Wins and Challenges
