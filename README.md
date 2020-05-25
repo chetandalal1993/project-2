@@ -53,6 +53,16 @@ The home page contains a welcome message, navbar with quick acess to the quiz an
 ### Quiz Page
 This quiz offers 4 sets of 4 multiple choice questions. Each time a user selects a choice, the next multiple choice question is displayed. The multiple choice options were created by mapping over the data being pulled from the potterapi API.
 
+```javascript
+ this.state.housesData.map((house) =>  {
+          if (typeof house[this.state.quizOptions[0]] === 'string') {
+            return <button key={house._id} onClick={this.nextQuestion} value={house.name}>{house[this.state.quizOptions[0]]}</button>
+          } else if (typeof house[this.state.quizOptions[0]] === 'object') {
+            return <button key={house._id} onClick={this.nextQuestion} value={house.name}>{house[this.state.quizOptions[0]].join(', ')}</button>
+          }
+        })
+  ```
+
 ![quiz screenshot](quiz.png)
 
 After the 4th and last question is answered the user is shown a 'see the result' page and a 'see the result' button. Once they click on this button the user is taken to the result page. This button functions as a link to the result page and also passes the props.
