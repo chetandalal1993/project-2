@@ -1,25 +1,34 @@
 
-Project 2: Sorting Hat Quiz (Harry Potter)
+# Project 2: Sorting Hat Quiz (Harry Potter)
 
-Overview
+## Overview
 
 A quiz emulating the sorting hat from Harry Potter. It was my second project on my Software Engineering Immersive course at General Assembly. This project was done in pair coding. The time frame for this project was 48 hours. The main game logic was completed in this time. I used the following weekend to complete a couple of additional features and styling.
 
-Deployment
+## Deployment
 
 Launce on ...
 
-Built With
+## Built With
 
-React SCSS Bulma Git GitHub potterapi
+* React 
+* SCSS
+* Bulma
+* Git
+* GitHub
+* Insomnia
+* potterapi
 
-Getting Started
+## Getting Started
 
 ...
 
-//* insert images of Quiz
+![home screenshot](home.png)
+![quiz screenshot](quiz.png)
+![get result screenshot](getresult.png)
+![result screenshot](result.png)
 
-Brief
+## Brief
 
 Consume a public API - this could be anything but it must make sense for your project.
 Have several components - At least one classical and one functional.
@@ -27,23 +36,23 @@ The app can have a router - with several "pages", this is up to your digression 
 Include wireframes - that you designed before building the app.
 Be deployed online and accesbile to the public.
 
-Quiz
+## Quiz
 
 This quiz offers 4 sets of 4 multiple choice questions. The result of the quiz is dependent on the choices made by the user. This result will be one of the 4 Hogwarts houses, (Gryffindor, Ravenclaw, Hufflepuff, Slytherin).
 
-Wins and Challenges
+## Wins and Challenges
 
 ...
 
-Bugs
+## Bugs
 
 ...
 
-Future Improvements
+## Future Improvements
 
 ...
 
-Credits
+## Credits
 
 ...
 
