@@ -16,7 +16,10 @@ The website is deployed on netlify and can be found [here](https://harry-potter-
 ## Built With
 
 * React 
-* SCSS
+* Sass
+* Axios
+* Express
+* Node.js
 * Bulma
 * Git
 * GitHub
