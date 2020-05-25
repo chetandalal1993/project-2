@@ -9,7 +9,7 @@ const Home = () => (
         <p className="hometitle">Welcome To Hogwarts!</p>
         <img src={hogwarts} width="600" alt='hogwarts'/>
           <p className="homemsg">Sort Yourself Into a House with the Sorting Hat!</p>
-        <Link to='/quiz' className='Button'><button className="startquizbutton button is-danger">Start Quiz</button></Link>
+        <Link to='/quiz' className='Button'><button className="startquizbutton button">Start Quiz</button></Link>
       </div>
     </div>
   </section>

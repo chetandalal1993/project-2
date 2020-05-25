@@ -49,7 +49,7 @@ This website is made up of a home page, a quiz page and a result page. There is 
 The home page contains a welcome message, navbar with quick acess to the quiz and a start quiz button which links to the quiz page.
 
 ```javascript
-  <Link to='/quiz' className='Button'><button className="startquizbutton button is-danger">Start Quiz</button></Link>
+  <Link to='/quiz' className='Button'><button className="startquizbutton button">Start Quiz</button></Link>
 ```
 
 ![home screenshot](home.png)
