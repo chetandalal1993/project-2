@@ -62,7 +62,6 @@ This quiz offers 4 sets of 4 multiple choice questions. Each time a user selects
           }
         })
   ```
-
 ![quiz screenshot](quiz.png)
 
 After the 4th and last question is answered the user is shown a 'see the result' page and a 'see the result' button. Once they click on this button the user is taken to the result page. This button functions as a link to the result page and also passes the props.
@@ -77,12 +76,11 @@ After the 4th and last question is answered the user is shown a 'see the result'
           <button className="seeresult">See the Result</button> <img className="demiguise" src={demiguise} width="200" alt='result pixie'/>
             </Link> }
 ```
-
 ![get result screenshot](getresult.png)
 
 ### Result Page
 The result of the quiz is dependent on the choices made by the user. This result will be one of the 4 Hogwarts houses, (Gryffindor, Ravenclaw, Hufflepuff, Slytherin).
-The result is calculated by pushing the even.target.value in each question into the results array that was set in state on the Quiz page.
+The result is calculated by pushing the even.target.value(house name), in each question into the results array that was set in state on the Quiz page.
 
 ```javascript
 ...
@@ -91,8 +89,16 @@ The result is calculated by pushing the even.target.value in each question into 
     this.setState({ result })
 ...
 ```
+Then using the findWinner function to calculate which house name appeared most within the results array to determine which house the user will be sorted into.
 
-
+```javascript
+  findWinner = (result) => {
+      return result.sort((a,b) =>
+            result.filter(v => v===a).length
+          - result.filter(v => v===b).length
+      ).pop()
+  }
+```
 ![result screenshot](result.png)
 
 ## Wins and Challenges
