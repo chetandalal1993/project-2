@@ -137,8 +137,9 @@ As this object also contains the key with the value of the house info I also hav
 
 ## Bugs
 
-My error page seems to have been overriden by netlify
-There's also a GET request error for the ttf font I used which needs to be fixed (although the font is still displayed).
+* My error page seems to have been overriden by netlify
+* There's also a GET request error for the ttf font I used which needs to be fixed (although the font is still displayed).
+
 ## Future Improvements
 
 * Responsive design
