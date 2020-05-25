@@ -17,6 +17,7 @@ class Result extends React.Component {
   }
 
   findWinner = (result) => {
+    // console.log(result) 
       return result.sort((a,b) =>
             result.filter(v => v===a).length
           - result.filter(v => v===b).length
@@ -33,6 +34,7 @@ class Result extends React.Component {
 
   render() {
     const winner = this.findWinner(this.props.location.state.result)
+    // console.log(winner) 
     const img = this.findImage(winner)
     return (
       <div className="result">

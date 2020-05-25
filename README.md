@@ -80,7 +80,7 @@ After the 4th and last question is answered the user is shown a 'see the result'
 
 ### Result Page
 The result of the quiz is dependent on the choices made by the user. This result will be one of the 4 Hogwarts houses, (Gryffindor, Ravenclaw, Hufflepuff, Slytherin).
-The result is calculated by pushing the even.target.value(house name), in each question into the results array that was set in state on the Quiz page.
+The result is calculated by pushing the even.target.value(house name correlating to the option selected), in each question into the results array that was set in state on the Quiz page.
 
 ```javascript
 ...
@@ -99,6 +99,7 @@ Then using the findWinner function to calculate which house name appeared most w
       ).pop()
   }
 ```
+Here should two or more strings in the arrray have equal occurences then the one that appears latest in the array will be returned.
 ![result screenshot](result.png)
 
 ## Wins and Challenges
