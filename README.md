@@ -28,7 +28,7 @@ The website is deployed on netlify and can be found [here](https://harry-potter-
 
 ## Getting Started
 
-Clone or download the repo. Run 'npm i' from the root directory to download all of the necessary packages and then type 'npm run start'. 
+Clone or download the repo. Run 'yarn' from the root directory to download all of the necessary packages and then type 'yarn start'. 
 
 ## Brief
 
