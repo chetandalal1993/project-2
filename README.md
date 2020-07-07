@@ -145,6 +145,11 @@ As this object also contains the key with the value of the house info I also hav
 * Responsive design
 * As it was a hackathon we overlooked the usefulness of leaving comments on our code and in our rush to get the project complete had neglected adding them. In hindsight they would've been beneficial to us and others reading this code, especially looking back on this project in the future.
 
+## Key Learnings
+
+This was my first time Pair coding on a project. It was a great experience being able to collaborate and being able to bounce ideas back and forth until we came up with a soultion. It was also great to see what we could achieve in such a short amount of time. Our greatest challenges were working with live share in VSC as it constantly timed out. This meant that when we were working on the same component we couldn't see what the other person had added in real time which caused a few overriding and errors. Another challenge was the time difference as my partner was working remotely from Tokyo. Although a little challenging it improved our communication skills and highlighted the importance of really good communication. 
+Lastly we bouth came to the realisation that we approached the project by unnecessarily overcomplicating a lot of the logic and allowing it to overwhelm us. We ended up rewriting our app almost from scratch on the second day of the project in a much more simplistic way.
+
 ## Credits
 
 Kuriko Iwai - my partner for this project.
