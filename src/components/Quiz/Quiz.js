@@ -12,8 +12,8 @@ class Quiz extends React.Component {
     questions: [
       'So Peeka, which is the best name in the world?', // Baby Phoolan Devi Palak Jain Babu
       'Puchka, which day is the hottest and sweetest?', 
-      'Peeku Rani, who is your favourite?', // Seeta-Geeta Laila Chhoti Peeku Potentially Chhoti Peeku
-      'Okay Jhingala. What\'s your favourite quote?' // Tumne to mujhe jaana hi kaha hai. Hotness is transient. Peeku Peeku Peeku Aaja aaja aaja. Kuchh bhi chalega mujhe.
+      'Okay Jhingala. Who is your favourite?', // Seeta-Geeta Laila Chhoti Peeku Potentially Chhoti Peeku
+      'Peeku Rani, what\'s your favourite quote?' // Tumne to mujhe jaana hi kaha hai. Hotness is transient. Peeku Peeku Peeku Aaja aaja aaja. Kuchh bhi chalega mujhe.
     ],
     quizOptions: ['mascot', 'colors', 'values', 'headOfHouse']
   }
