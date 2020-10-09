@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/project-2/static/css/main.b9a91eb8.chunk.css",
+    "main.js": "/project-2/static/js/main.e5e3e92d.chunk.js",
+    "main.js.map": "/project-2/static/js/main.e5e3e92d.chunk.js.map",
+    "runtime-main.js": "/project-2/static/js/runtime-main.baa1b481.js",
+    "runtime-main.js.map": "/project-2/static/js/runtime-main.baa1b481.js.map",
+    "static/js/2.840c5ada.chunk.js": "/project-2/static/js/2.840c5ada.chunk.js",
+    "static/js/2.840c5ada.chunk.js.map": "/project-2/static/js/2.840c5ada.chunk.js.map",
+    "index.html": "/project-2/index.html",
+    "precache-manifest.a1772bff4a33125d8ab15bc38822fb7e.js": "/project-2/precache-manifest.a1772bff4a33125d8ab15bc38822fb7e.js",
+    "service-worker.js": "/project-2/service-worker.js",
+    "static/css/main.b9a91eb8.chunk.css.map": "/project-2/static/css/main.b9a91eb8.chunk.css.map",
+    "static/js/2.840c5ada.chunk.js.LICENSE.txt": "/project-2/static/js/2.840c5ada.chunk.js.LICENSE.txt",
+    "static/media/HARRYP__.TTF": "/project-2/static/media/HARRYP__.181ef9a7.TTF",
+    "static/media/demiguise.png": "/project-2/static/media/demiguise.a94c5452.png",
+    "static/media/errorpixie.png": "/project-2/static/media/errorpixie.af3e9ef5.png",
+    "static/media/g2.png": "/project-2/static/media/g2.17cfdbfa.png",
+    "static/media/h2.png": "/project-2/static/media/h2.569d46c4.png",
+    "static/media/hat.png": "/project-2/static/media/hat.f7acbc5a.png",
+    "static/media/hogwarts2.png": "/project-2/static/media/hogwarts2.149f4998.png",
+    "static/media/housescrest.png": "/project-2/static/media/housescrest.c71cb81f.png",
+    "static/media/r2.png": "/project-2/static/media/r2.039b15c9.png",
+    "static/media/s2.png": "/project-2/static/media/s2.e5bdac06.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.baa1b481.js",
+    "static/js/2.840c5ada.chunk.js",
+    "static/css/main.b9a91eb8.chunk.css",
+    "static/js/main.e5e3e92d.chunk.js"
+  ]
+}
