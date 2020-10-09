@@ -21,7 +21,7 @@ function App() {
       <Route exact path="/" component={Home}/>
       <Route path="/quiz" component={Quiz}/>
       <Route path="/result" component={Result}/>
-      <Route path='/*' component={Error} />
+      <Route path='/*' component={Home} />
     </Switch>
     </BrowserRouter>
   )
