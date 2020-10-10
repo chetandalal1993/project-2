@@ -15,9 +15,9 @@ class Result extends React.Component {
   state =  {
     finalImage: [
       {name: "Gryffindor", img1: Gryffindor, img2: Peeku3, info: "You belong in Gryffindor,\nWhere hotness is transient,\n Your yawns and paad, frequent but cute,\n Makes Cheeku go in love every night."},
-      {name: "Slytherin", img1: Slytherin, img2: Peeku1, info: "You belong in Slytherin,\n There you'll be called kamini,\nYou will never award enough points\nBut your smile will makes up for all the kanjoosi."},
+      {name: "Slytherin", img1: Slytherin, img2: Peeku1, info: "You belong in Slytherin,\n There you'll be called kamini,\nYou will never award enough points\nBut your smile will make up for all the kanjoosi."},
       {name: "Ravenclaw", img1: Ravenclaw, img2: Peeku2, info: "You belong in sweet and innocent Ravenclaw,\nWho squats while holding ears,\nWho looks cute and hot always,\nBe it Day 0 or Day 3"},
-      {name: "Hufflepuff", img1: Hufflepuff, img2: Peeku4, info: "You belong in Hufflepuff,\nWith soft soft gaal,\nThose infinte loving people rumours are true\nJust look at you"}
+      {name: "Hufflepuff", img1: Hufflepuff, img2: Peeku4, info: "You belong in Hufflepuff,\nWith soft soft gaal.. uff,\n They love infintely, yes the rumours are true\nJust look at you"}
     ]
   }
 
